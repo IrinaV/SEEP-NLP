@@ -8,6 +8,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -38,7 +39,7 @@ public class MatchPredicates {
 	static Properties props = new Properties();
 	static {
 		props.setProperty("annotators",
-				"tokenize, ssplit, pos, lemma, parse, ner");
+				"tokenize, ssplit, pos, lemma, ner");
 		pipeline = new StanfordCoreNLP(props);
 	}
 
@@ -61,7 +62,7 @@ public class MatchPredicates {
 	static final MetricRegistry metrics = new MetricRegistry();
 	private static Meter requests = metrics.meter("requests");
 	static Connection con = null;
-	
+
 	public static void printMap(HashMap mp) {
 		for (Object iter : mp.entrySet()) {
 			HashMap.Entry pair = (HashMap.Entry) iter;
@@ -72,11 +73,11 @@ public class MatchPredicates {
 	public static void main(String[] args) {
 		ExtractPredicates.getPredicates(pred_location, pred_time, pred_entity,
 				pred_other);
-		try {
-			content = OpenFile();
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
+//		try {
+//			content = OpenFile();
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//		}
 //		Connection con = null;
 		PreparedStatement pst = null;
 		ResultSet rs = null;
@@ -84,7 +85,7 @@ public class MatchPredicates {
 		String url = "jdbc:postgresql://localhost/mydb";
 		String user = "irinaveliche";
 		String password = "123";
-		
+
 		try {
 			con = DriverManager.getConnection(url, user, password);
 //			pst = con.prepareStatement("create index subject_idx on yagofacts using gin (subject gin_trgm_ops);");
@@ -93,14 +94,15 @@ public class MatchPredicates {
 			Logger lgr = Logger.getLogger(Retrieve.class.getName());
 			lgr.log(Level.SEVERE, ex.getMessage(), ex);
 		}
-		
+
 		startReport();
-		for (int times = 0; times < 1000; ++times) {
-			for (String query : content) {
-				match(query);
-			}
-			++times;
-		}
+//		for (int times = 0; times < 1000; ++times) {
+//			for (String query : content) {
+		String query = "What prize did Albert Einstien win?";
+		match(query);
+//			}
+//			++times;
+//		}
 	}
 
 	private static void match(String query) {
@@ -127,6 +129,8 @@ public class MatchPredicates {
 				String lemma = token.get(LemmaAnnotation.class);
 				String ner = token.get(NamedEntityTagAnnotation.class);
 
+				System.out.println("WORD: " + word + " POS: " + pos +
+						 " LEMMA: " + lemma + " NER: " + ner);
 				if (pos.equals("WRB")) {
 					if (q_location.contains(lemma)) {
 						predicates.putAll(pred_location);
@@ -149,15 +153,14 @@ public class MatchPredicates {
 				} else {
 					match_pred += lemma + " ";
 				}
-				// System.out.println("WORD: " + word + " POS: " + pos +
-				// " LEMMA: " + lemma + " NER: " + ner);
+
 			}
 			// printMap(predicates);
 			// System.out.println("[SUBJECT] " + subject);
 			// System.out.println("PREDICATE TO BE MATCHED: " + match_pred);
 			List<String> matched_pred = matchPred(match_pred, predicates);
 			// List<String> matched_subjects = matchPred(subject, subjects);
-			long kb_time = System.currentTimeMillis();
+			long start = System.currentTimeMillis();
 			for (int i = 0; i < matched_pred.size(); ++i) {
 				// for (int j = 0; j < matched_subjects.size(); ++j) {
 				dbConnection(subject.substring(0, subject.length() - 1),
@@ -165,7 +168,7 @@ public class MatchPredicates {
 				requests.mark();
 			}
 			long end = System.currentTimeMillis();
-//			System.out.println("KB TIME: " + (end - kb_time));
+			System.out.println("KB TIME: " + (end - start));
 		}
 	}
 
@@ -238,12 +241,14 @@ public class MatchPredicates {
 
 	private static List<String> matchPred(String word,
 			HashMap<String, String> pred_set) {
+		System.out.println("[predicate to be matched]" + word);
 		double max_score = 0.0;
 		List<String> best_match = new ArrayList<String>();
 		for (Object iter : pred_set.entrySet()) {
 			HashMap.Entry pair = (HashMap.Entry) iter;
 			String key = (String) pair.getKey();
 			String value = (String) pair.getValue();
+//			System.out.println("[predSet]" + value);
 			double sim = similarity(word, value);
 			if (sim > max_score) {
 				max_score = sim;
@@ -262,6 +267,8 @@ public class MatchPredicates {
 //		Connection con = null;
 		PreparedStatement pst = null;
 		ResultSet rs = null;
+		System.out.println("[SUBJECT]:" + subject);
+		System.out.println("[PREDICATE]:" + predicate);
 
 //		String url = "jdbc:postgresql://localhost/mydb";
 //		String user = "irinaveliche";
@@ -280,9 +287,9 @@ public class MatchPredicates {
 					+ predicate + "') as bar);";
 */
 			//String sql = "select distinct object from yagofacts where predicate='" + predicate + "' and subject like '%" + subject + "%';";
-			
+
 			String sql = ("select distinct object from yagofacts where to_tsvector('simple', regexp_replace(subject, E'[^A-Za-z0-9]', ' ', 'g'))"
-					+ " @@ to_tsquery('" + subject + "') and predicate='" + predicate + "';");
+					+ " @@ to_tsquery('" + subject + "') and predicate='<" + predicate + ">';");
 			pst = con.prepareStatement(sql);
 			rs = pst.executeQuery();
 
