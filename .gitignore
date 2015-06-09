@@ -43,6 +43,9 @@ examples/simple-kafka-stateless-pipeline/.settings/
 examples/simple-kafka-stateless-pipeline/build/*
 examples/static-scaleout-pipeline-stateful-query/.settings/
 examples/static-scaleout-pipeline-stateful-query/build/
+examples/nlp-query/.settings/
+examples/nlp-query/bin/
+examples/*.jar
 deploy/
 dist/
 install/

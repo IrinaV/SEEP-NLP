@@ -1,6 +1,6 @@
 include \
 	"simple-dag-stateless-query",
-	"simple-pipeline-stateless-query",
+	"nlp-query",
 	"simple-pipeline-stateless-barrier-query",
 	"static-scaleout-pipeline-stateless-query",
 	"static-scaleout-pipeline-stateful-query",
