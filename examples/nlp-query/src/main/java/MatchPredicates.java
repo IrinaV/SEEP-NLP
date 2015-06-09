@@ -98,7 +98,7 @@ public class MatchPredicates {
 		startReport();
 //		for (int times = 0; times < 1000; ++times) {
 //			for (String query : content) {
-		String query = "What prize did Albert Einstien win?";
+		String query = " What is the capital of Samoa?";
 		match(query);
 //			}
 //			++times;
@@ -121,6 +121,7 @@ public class MatchPredicates {
 			HashMap<String, String> predicates = new HashMap<String, String>();
 			String subject = "";
 			String match_pred = "";
+			List<String> match_pred_words = new ArrayList<String>();
 
 			for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
 				word = token.get(TextAnnotation.class);
@@ -151,13 +152,18 @@ public class MatchPredicates {
 					// marks
 					continue;
 				} else {
-					match_pred += lemma + " ";
+//					match_pred += lemma + " ";
+					match_pred_words.add(lemma);
 				}
 
 			}
 			// printMap(predicates);
 			// System.out.println("[SUBJECT] " + subject);
 			// System.out.println("PREDICATE TO BE MATCHED: " + match_pred);
+			Collections.sort(match_pred_words);
+			for (int i = 0; i < match_pred_words.size(); ++i) {
+				match_pred += match_pred_words.get(i) + " ";
+			}
 			List<String> matched_pred = matchPred(match_pred, predicates);
 			// List<String> matched_subjects = matchPred(subject, subjects);
 			long start = System.currentTimeMillis();

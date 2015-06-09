@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -76,6 +77,7 @@ public class NLP implements SeepTask {
       HashMap<String, String> predicates = new HashMap<String, String>();
       String subject = "";
       String match_pred = "";
+      List<String> match_pred_words = new ArrayList<String>();
 
       for (CoreLabel token : sentence.get(TokensAnnotation.class)) {
         word = token.get(TextAnnotation.class);
@@ -100,8 +102,12 @@ public class NLP implements SeepTask {
         } else if (pos.equals(".") || pos.equals("WP")) {
           // ignore "What and full stops continue;
         } else {
-          match_pred += lemma + " ";
+        	match_pred_words.add(lemma);
         }
+      }
+      Collections.sort(match_pred_words);
+      for (int i = 0; i < match_pred_words.size(); ++i) {
+		match_pred += match_pred_words.get(i) + " ";
       }
       List<String> matched_pred = matchPred(match_pred, predicates);
       long te = System.currentTimeMillis();
