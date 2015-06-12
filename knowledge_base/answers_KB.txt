@@ -1,0 +1,998 @@
+3600.0"^^<s>
+7380.0"^^<s>
+3900.0"^^<s>
+7200.0"^^<s>
+5760.0"^^<s>
+6120.0"^^<s>
+4920.0"^^<s>
+-2520.0"^^<s>
+5700.0"^^<s>
+2880.0"^^<s>
+4860.0"^^<s>
+4620.0"^^<s>
+6000.0"^^<s>
+6600.0"^^<s>
+5820.0"^^<s>
+7140.0"^^<s>
+6540.0"^^<s>
+5520.0"^^<s>
+1800.0"^^<s>
+10260.0"^^<s>
+4500.0"^^<s>
+1874-##-##"^^xsd:date
+1876-##-##"^^xsd:date
+1558-03-24"^^xsd:date
+1984-05-22"^^xsd:date
+1922-##-##"^^xsd:date
+1889-##-##"^^xsd:date
+1916-07-16"^^xsd:date
+1841-##-##"^^xsd:date
+1623-06-13"^^xsd:date
+1994-05-02"^^xsd:date
+1951-##-##"^^xsd:date
+1941-##-##"^^xsd:date
+1926-##-##"^^xsd:date
+2003-##-##"^^xsd:date
+1992-02-05"^^xsd:date
+1981-12-03"^^xsd:date
+1847-##-##"^^xsd:date
+2003-##-##"^^xsd:date
+1981-##-##"^^xsd:date
+2000-##-##"^^xsd:date
+1880-##-##"^^xsd:date
+1794-##-##"^^xsd:date
+1178-##-##"^^xsd:date
+1848-01-12"^^xsd:date
+1991-##-##"^^xsd:date
+2006-09-20"^^xsd:date
+2010-##-##"^^xsd:date
+1561-##-##"^^xsd:date
+1889-##-##"^^xsd:date
+1623-##-##"^^xsd:date
+1978-12-23"^^xsd:date
+1962-05-26"^^xsd:date
+1887-##-##"^^xsd:date
+1845-##-##"^^xsd:date
+1840-01-22"^^xsd:date
+1993-##-##"^^xsd:date
+2004-##-##"^^xsd:date
+2011-06-02"^^xsd:date
+1990-02-20"^^xsd:date
+2005-##-##"^^xsd:date
+1965-##-##"^^xsd:date
+1746-03-19"^^xsd:date
+1887-##-##"^^xsd:date
+1937-##-##"^^xsd:date
+1989-11-17"^^xsd:date
+1932-12-28"^^xsd:date
+1636-##-##"^^xsd:date
+490-12-30"^^xsd:date
+666-##-##"^^xsd:date
+2002-##-##"^^xsd:date
+1928-##-##"^^xsd:date
+1824-##-##"^^xsd:date
+2000-##-##"^^xsd:date
+2005-##-##"^^xsd:date
+1863-##-##"^^xsd:date
+1944-##-##"^^xsd:date
+1987-07-26"^^xsd:date
+2011-12-16"^^xsd:date
+1916-04-04"^^xsd:date
+1957-##-##"^^xsd:date
+1956-##-##"^^xsd:date
+1623-##-##"^^xsd:date
+1712-##-##"^^xsd:date
+1920-##-##"^^xsd:date
+1956-11-03"^^xsd:date
+2008-##-##"^^xsd:date
+1348-05-10"^^xsd:date
+1978-##-##"^^xsd:date
+1972-02-02"^^xsd:date
+1691-##-##"^^xsd:date
+1984-08-26"^^xsd:date
+1976-07-14"^^xsd:date
+1864-##-##"^^xsd:date
+1944-##-##"^^xsd:date
+1983-07-05"^^xsd:date
+1955-##-##"^^xsd:date
+1962-##-##"^^xsd:date
+1952-06-17"^^xsd:date
+1988-12-03"^^xsd:date
+1999-##-##"^^xsd:date
+1984-04-05"^^xsd:date
+1986-##-##"^^xsd:date
+1488000000000"^^<yagoMonetaryValue>
+12861000000"^^<dollar>
+12.861"^^<yagoMonetaryValue>
+1676000000000"^^<yagoMonetaryValue>
+328422000000"^^<dollar>
+328.422"^^<yagoMonetaryValue>
+22761000000"^^<yagoMonetaryValue>
+23333000000"^^<yagoMonetaryValue>
+2.776"^^<yagoMonetaryValue>
+2776000000000"^^<dollar>
+14461000000"^^<dollar>
+14.461"^^<yagoMonetaryValue>
+12.461"^^<yagoMonetaryValue>
+12461000000"^^<dollar>
+96089000000"^^<dollar>
+96.089"^^<yagoMonetaryValue>
+46872000000"^^<yagoMonetaryValue>
+25742000000"^^<yagoMonetaryValue>
+5869000000000"^^<yagoMonetaryValue>
+1736000000000"^^<yagoMonetaryValue>
+303065000000"^^<dollar>
+303.065"^^<yagoMonetaryValue>
+11313000000"^^<yagoMonetaryValue>
+1239000000"^^<yagoMonetaryValue>
+6523000000"^^<yagoMonetaryValue>
+9981000000"^^<dollar>
+9.981"^^<yagoMonetaryValue>
+7297000000"^^<yagoMonetaryValue>
+243302000000"^^<yagoMonetaryValue>
+33675000000"^^<yagoMonetaryValue>
+13227000000"^^<yagoMonetaryValue>
+513396000000"^^<yagoMonetaryValue>
+3900000000"^^<yagoMonetaryValue>
+4315000000"^^<dollar>
+4.315"^^<yagoMonetaryValue>
+45064000000"^^<dollar>
+45.064"^^<yagoMonetaryValue>
+6.179"^^<yagoMonetaryValue>
+6179000000"^^<dollar>
+213129000000"^^<yagoMonetaryValue>
+538237000000"^^<yagoMonetaryValue>
+466832000000"^^<yagoMonetaryValue>
+2493000000000"^^<yagoMonetaryValue>
+86799000000"^^<dollar>
+86.799"^^<yagoMonetaryValue>
+8506000000"^^<yagoMonetaryValue>
+7306000000"^^<yagoMonetaryValue>
+5650000000"^^<dollar>
+5.65"^^<yagoMonetaryValue>
+51.925"^^<yagoMonetaryValue>
+51925000000"^^<dollar>
+360136000000"^^<yagoMonetaryValue>
+164960000000"^^<yagoMonetaryValue>
+2356000000"^^<yagoMonetaryValue>
+34796000000"^^<yagoMonetaryValue>
+15094000000000"^^<yagoMonetaryValue>
+6.581"^^<yagoMonetaryValue>
+6581000000"^^<dollar>
+15668000000"^^<yagoMonetaryValue>
+10.106"^^<yagoMonetaryValue>
+10106000000"^^<dollar>
+10327000000"^^<dollar>
+10.327"^^<yagoMonetaryValue>
+58412000000"^^<yagoMonetaryValue>
+238880000000"^^<yagoMonetaryValue>
+210566000000"^^<dollar>
+210.566"^^<yagoMonetaryValue>
+636059000000"^^<yagoMonetaryValue>
+439000000"^^<yagoMonetaryValue>
+333.238"^^<yagoMonetaryValue>
+333238000000"^^<dollar>
+4200000000"^^<dollar>
+4.200"^^<yagoMonetaryValue>
+66381000000"^^<yagoMonetaryValue>
+190709000000"^^<yagoMonetaryValue>
+1691861000000"^^<yagoMonetaryValue>
+1239000000"^^<yagoMonetaryValue>
+1627000000000"^^<yagoMonetaryValue>
+252736000000"^^<yagoMonetaryValue>
+2417000000000"^^<dollar>
+2.417"^^<yagoMonetaryValue>
+1944000000"^^<yagoMonetaryValue>
+2453000000"^^<yagoMonetaryValue>
+71888000000"^^<yagoMonetaryValue>
+3790000000"^^<yagoMonetaryValue>
+5920000000"^^<yagoMonetaryValue>
+16176000000"^^<yagoMonetaryValue>
+31256000000"^^<yagoMonetaryValue>
+1154000000"^^<yagoMonetaryValue>
+977000000"^^<yagoMonetaryValue>
+161.851"^^<yagoMonetaryValue>
+161851000000"^^<dollar>
+2165000000"^^<yagoMonetaryValue>
+178312000000"^^<yagoMonetaryValue>
+24604000000"^^<yagoMonetaryValue>
+513821000000"^^<yagoMonetaryValue>
+53.514"^^<yagoMonetaryValue>
+53514000000"^^<dollar>
+9323000000"^^<yagoMonetaryValue>
+5673000000"^^<yagoMonetaryValue>
+100948000000"^^<yagoMonetaryValue>
+62321000000"^^<yagoMonetaryValue>
+1882-##-##"^^xsd:date
+1972-##-##"^^xsd:date
+2010-08-11"^^xsd:date
+1986-##-##"^^xsd:date
+1941-##-##"^^xsd:date
+1860-##-##"^^xsd:date
+1830-##-##"^^xsd:date
+1985-##-##"^^xsd:date
+1972-##-##"^^xsd:date
+1994-##-##"^^xsd:date
+1915-##-##"^^xsd:date
+1836-##-##"^^xsd:date
+1915-##-##"^^xsd:date
+1927-##-##"^^xsd:date
+1955-##-##"^^xsd:date
+1882-##-##"^^xsd:date
+1907-04-15"^^xsd:date
+1976-01-01"^^xsd:date
+1910-##-##"^^xsd:date
+1913-##-##"^^xsd:date
+1920-##-##"^^xsd:date
+1956-##-##"^^xsd:date
+2006-##-##"^^xsd:date
+2001-##-##"^^xsd:date
+1928-##-##"^^xsd:date
+1822-##-##"^^xsd:date
+2001-##-##"^^xsd:date
+2006-##-##"^^xsd:date
+1823-##-##"^^xsd:date
+1929-##-##"^^xsd:date
+1992-##-##"^^xsd:date
+2005-09-18"^^xsd:date
+1984-03-##"^^xsd:date
+1984-05-12"^^xsd:date
+1820-##-##"^^xsd:date
+1875-##-##"^^xsd:date
+1990-##-##"^^xsd:date
+1925-##-##"^^xsd:date
+1933-##-##"^^xsd:date
+1627-##-##"^^xsd:date
+1794-##-##"^^xsd:date
+2006-##-##"^^xsd:date
+1987-##-##"^^xsd:date
+1945-##-##"^^xsd:date
+2002-##-##"^^xsd:date
+2004-12-06"^^xsd:date
+1978-12-17"^^xsd:date
+2007-06-05"^^xsd:date
+2006-##-##"^^xsd:date
+2010-11-04"^^xsd:date
+1885-##-##"^^xsd:date
+2002-11-22"^^xsd:date
+2001-##-##"^^xsd:date
+1991-##-##"^^xsd:date
+1890-##-##"^^xsd:date
+1972-11-##"^^xsd:date
+1980-##-##"^^xsd:date
+2001-##-##"^^xsd:date
+1963-##-##"^^xsd:date
+2000-05-23"^^xsd:date
+1988-##-##"^^xsd:date
+1894-##-##"^^xsd:date
+1775-##-##"^^xsd:date
+2009-##-##"^^xsd:date
+1852-##-##"^^xsd:date
+1877-##-##"^^xsd:date
+1921-##-##"^^xsd:date
+2005-##-##"^^xsd:date
+1947-##-##"^^xsd:date
+2007-01-01"^^xsd:date
+1918-##-##"^^xsd:date
+2004-##-##"^^xsd:date
+2005-11-01"^^xsd:date
+2002-##-##"^^xsd:date
+1997-##-##"^^xsd:date
+1934-##-##"^^xsd:date
+1956-##-##"^^xsd:date
+1952-##-##"^^xsd:date
+1971-##-##"^^xsd:date
+2001-##-##"^^xsd:date
+<University of Utah>
+<École Normale Supérieure>
+<Hartwick College>
+<University of Zagreb>
+<Leiden University>
+<University of Arizona>
+<University of Oxford>
+<University of Zimbabwe>
+<Yenching University>
+<University of Medicine, Mandalay>
+<Johns Hopkins University>
+<Bethel University (Minnesota)>
+<University of Amsterdam>
+<University of Copenhagen>
+<University of Fribourg>
+<Yale University>
+<Lady Shri Ram College for Women>
+<University of Vienna>
+<Rutgers University>
+<Tbilisi State University>
+<University of Birmingham>
+<University of Melbourne>
+<Moscow State University>
+<Sichuan University>
+<University of Dhaka>
+<Faculty of Medicine, University of Colombo>
+<Massachusetts Institute of Technology>
+<The Evergreen State College>
+<University of Oxford>
+<University of Calcutta>
+<Allahabad University>
+<North Carolina State University>
+<Goethe University Frankfurt>
+<University of Hartford>
+<Vancouver Film School>
+<Colgate University>
+<Oberlin College>
+<University of Minnesota Duluth>
+<University of Basel>
+<Trinity College (Connecticut)>
+<University of Wisconsin–Milwaukee>
+<Manchester Metropolitan University>
+<Ruhr University Bochum>
+<University of Jena>
+<New York University>
+<Arizona State University>
+<University of Missouri>
+<Boston University>
+<Johns Hopkins School of Medicine>
+<Princeton University>
+<Norwegian Naval Academy>
+<University of Strathclyde>
+<University of British Columbia>
+<University of Leeds>
+<Delft University of Technology>
+<Cairo University>
+<Massachusetts Institute of Technology>
+<University of South Florida>
+<Virginia Commonwealth University>
+<Bowdoin College>
+<University of Michigan>
+<King's College London>
+<New York University>
+<Tufts University>
+<Creighton University>
+<University of Kharkiv>
+<Adam Mickiewicz University in Poznań>
+<Springfield College (Massachusetts)>
+<National University of Rosario>
+<University of Florida>
+<Boston University>
+<Humboldt University of Berlin>
+<Technion>
+<Vassar College>
+<University of Colombo>
+<University of Sydney>
+<Royal Institute of Technology>
+<Banaras Hindu University>
+<Melanie Marnich>
+<Ian Carmichael>
+<William Spier>
+<Barbara Amiel>
+<David Cassidy>
+<Joy Adamson>
+<William the Silent>
+<Joseph Cook>
+<Ealdgyth, daughter of Earl Ælfgar>
+<Bozo Miller>
+<Susan Herbst>
+<Archduchess Karoline Marie of Austria>
+<Rinchinbal Khan, Emperor Ningzong of Yuan>
+<Louise Botting>
+<Ben Bard>
+<David Frost>
+<Peter Sellers>
+<Kevin Danaher (activist)>
+<Charlton Heston>
+<Harrison Marks>
+<Douglas Webb>
+<Michael Aris>
+<Terence Donovan (actor)>
+<Elizabeth B. Lacy>
+<Marie Henriette of Austria>
+<Caroline Lacroix>
+<John of Görlitz>
+<Matteo I Visconti>
+<Julianna McCarthy>
+<Jeyaraj Fernandopulle>
+<Seymour Hicks>
+<Trish Worth>
+<Mithun Chakraborty>
+<Kishore Kumar>
+<Irving Thalberg>
+<Phyllis Rose>
+<Robert Mugabe>
+<Charles MacArthur>
+<Edmund Cobb>
+<Michelle Yeoh>
+<Tracey Needham>
+<Hal Roach>
+<Sawsan Gabra Ayoub Khalil>
+<Nick Jones (entrepreneur)>
+<Sharon Maughan>
+<Patrick V, Earl of March>
+<Melanie Griffith>
+<Suzi Perry>
+<Jean-Louis Trintignant>
+<Carlos P. Garcia>
+<Wendy Moniz>
+<Deirdre Imus>
+<Franchot Tone>
+<Alice Perkins>
+<Thomas Bangalter>
+<Mickey Rooney>
+<Tera Wray>
+<Herbert Ross>
+<Stanisław Albrecht Radziwiłł>
+<Mangasha Seyum>
+<Knut Almlöf>
+<Andrew Lloyd Webber>
+<Frederick Christian, Elector of Saxony>
+<Helena (Empress)>
+<Flavia Maximiana Theodora>
+<Benjamin B. Hotchkiss>
+<Brent Erickson>
+<Tom Troupe>
+<Wesley Sneijder>
+<Anna Rice Cooke>
+<Xianfeng Emperor>
+<Mah Parwar Begum>
+<Bingu wa Mutharika>
+<Steven Soderbergh>
+<Josiah Taft>
+<J. Frederick Motz>
+<Don Harron>
+<Kevin Bernhardt>
+<Augustus, Elector of Saxony>
+<John II, Duke of Schleswig-Holstein-Sonderburg>
+<Per Oscarsson>
+<Cecilia Cheung>
+<Gus Fisher>
+<Saba Homayoon>
+<Ludo Graham>
+<Ramon Magsaysay>
+<Reinhard Heydrich>
+<Murray, Utah>
+<Whitefish, Montana>
+<Tucson, Arizona>
+<Alphen aan den Rijn>
+<Netherlands>
+<Haiti>
+<United Kingdom>
+<Lashio>
+<Australia>
+<Sydney>
+<Willmar, Minnesota>
+<San Francisco>
+<Hamirpur district, Himachal Pradesh>
+<Himachal Pradesh>
+<United States>
+<Canada>
+<Hoboken, New Jersey>
+<South Euclid, Ohio>
+<Ohio>
+<China>
+<Brisbane>
+<Olympia, Washington>
+<United Kingdom>
+<United States>
+<Lucknow>
+<Kabul>
+<United States>
+<London>
+<Marbella>
+<Geneva>
+<County Tipperary>
+<Montreal>
+<Quebec>
+<Norwich, Connecticut>
+<Eagan, Minnesota>
+<Bozeman, Montana>
+<Tylsen>
+<Switzerland>
+<United States>
+<Davenport, Iowa>
+<Oslo>
+<Milwaukee>
+<Orlando, Florida>
+<United States>
+<Japan>
+<Perth, Western Australia>
+<Australia>
+<Dallas>
+<Texas>
+<Beijing>
+<Newark, Delaware>
+<Andhra Pradesh>
+<India>
+<Hyderabad, India>
+<Portland, Maine>
+<United States>
+<Georgia (U.S. state)>
+<Atlanta>
+<England>
+<City of Preston, Lancashire>
+<Freckleton>
+<Salem, Virginia>
+<Ontario>
+<Sault Ste. Marie, Ontario>
+<Istanbul>
+<South Africa>
+<Cranston, Rhode Island>
+<Santa Clarita, California>
+<Tarpon Springs, Florida>
+<Rochester, New Hampshire>
+<England>
+<Reading, Berkshire>
+<Alberta>
+<Edmonton>
+<Kentucky>
+<Bowling Green, Kentucky>
+<United States>
+<Shillong>
+<Cambridge>
+<England>
+<Omaha, Nebraska>
+<Poplar, Wisconsin>
+<Maple Ridge, British Columbia>
+<British Columbia>
+<Whitefish Bay, Wisconsin>
+<United States>
+<Serbia>
+<Belgrade>
+<Tripura>
+<Agartala>
+<Providence, Rhode Island>
+<Nottingham>
+<England>
+<Belgrade>
+<Zagreb>
+<Bradenton, Florida>
+<Germany>
+<Chişinău>
+<United States>
+<Toronto>
+<Västerås>
+<United States>
+<Dallas>
+<Jena>
+<Oslo>
+<Husum>
+<Israel>
+<Running Free (film)>
+<The Son's Room>
+<Huevos de oro>
+<Caro diario>
+<The Voice of the Moon>
+<Out of Life>
+<A Leap in the Dark>
+<You Laugh>
+<Queen to Play>
+<Il camorrista>
+<Sbatti il mostro in prima pagina>
+<Fiorile>
+<A Strange Place to Meet>
+<The Night of the Shooting Stars>
+<A Month by the Lake>
+<Avenue Montaigne (film)>
+<Il Marchese del Grillo>
+<Jamón, jamón>
+<Intervista>
+<Twenty-One (film)>
+<Cool Money>
+<Waydowntown>
+<A Problem with Fear>
+<You Can Count on Me>
+<Victoria Day (film)>
+<Mansfield Park (film)>
+<When Night Is Falling>
+<A Thousand Years of Good Prayers>
+<A Price Above Rubies>
+<Hysterical Blindness (film)>
+<Comeback Season (film)>
+<Inspired by Bach>
+<J-ok'el>
+<Tovarich (musical)>
+<The Subject Was Roses (film)>
+<Ernest in Love>
+<Big B (film)>
+<Seniors (film)>
+<Casanovva>
+<Valayar Paramasivam>
+<Ee Adutha Kaalathu>
+<Sagar Alias Jacky Reloaded>
+<Notebook (film)>
+<Ustad Hotel>
+<Masters (film)>
+<Bulbul Maina>
+<Doctor Love (film)>
+<Lovely, Still>
+<Funny Lady>
+<Torch Song Trilogy (film)>
+<Laura Lansing Slept Here>
+<Mrs. Delafield Wants to Marry>
+<As Is (film)>
+<Lust in the Dust>
+<Bye Bye Braverman>
+<Marlowe (film)>
+<The Secret of the Selenites>
+<The Secret of the Sword>
+<Here Come the Littles>
+<Dawn of the Mummy>
+<Little Golden Book Land>
+<Imagine This>
+<Millennium Actress>
+<Dreaming Machine>
+<Radiant City>
+<I Had a Ball>
+<Watch Out (film)>
+<Courage of Lassie>
+<Barney Bear>
+<To Spring>
+<The Shooting of Dan McGoo>
+<Dumb-Hounded>
+<Chaque jour a son secret>
+<Bob le flambeur>
+<Cuckoo (film)>
+<Gas-s-s-s>
+<Berlin Calling>
+<Suno Sasurjee>
+<Rishtey>
+<Yeh Raaste Hain Pyaar Ke>
+<U R My Jaan>
+<Xcuse Me>
+<Mann (film)>
+<Me You Them>
+<Call + Response>
+<Her First Roman>
+<Rags (film)>
+<Quality Time (film)>
+<L'avare (film)>
+<Macedonian Blood Wedding>
+<Jashnn>
+<Zenda (Marathi film)>
+<Sanai Choughade>
+<Man Push Cart>
+<Bol (film)>
+<Terror in a Texas Town>
+<Repo Man (film)>
+<Such a Long Journey (film)>
+<The Incredible Shrinking Woman>
+<Model Behavior>
+<The Duke Is Tops>
+<Puttin' on the Ritz (film)>
+<Karate Cop>
+<Omega Cop>
+<Bar Girls>
+<Kanchhi>
+<Last Days (film)>
+<Summer Lovers>
+<Switchback (film)>
+<The Hunt for Red October (film)>
+<Conan the Destroyer>
+<Serial Mom>
+<Making the Grade (film)>
+<Hot Shots! Part Deux>
+<Wired (film)>
+<Farewell to the King>
+<Celtic Pride>
+<The War at Home (film)>
+<Breakdown (film)>
+<Quigley Down Under>
+<Return to the Blue Lagoon>
+<Tintorera>
+<For Love of the Game (film)>
+<Red Dawn>
+<Lonesome Dove (TV miniseries)>
+<It's My Party (film)>
+<Protocol (film)>
+<On Deadly Ground>
+<Flesh & Blood (film)>
+<RoboCop>
+<Wind (film)>
+<Big Wednesday>
+<Mickey Blue Eyes>
+<Cecil B. Demented>
+<Free Willy (film series)>
+<Crocodile Dundee in Los Angeles>
+<Starship Troopers (film)>
+<Free Willy>
+<Rudyard Kipling's The Jungle Book>
+<Iron Eagle>
+<Mutual Appreciation>
+<From Within (film)>
+<Spiderhole (film)>
+<Cassandra's Dream>
+<Mindwalk>
+<Closet Land>
+<Kundun>
+<Naqoyqatsi>
+<Stoker (film)>
+<Koyaanisqatsi>
+<The Fog of War>
+<Bent (film)>
+<Taking Lives (film)>
+<No Reservations (film)>
+<Nosso Lar (film)>
+<Desarrollo humano>
+<Candyman (film)>
+<Hamburger Hill>
+<Sabretooth (film)>
+<Yes (film)>
+<Secret Window>
+<Powaqqatsi>
+<Neverwas>
+<Notes on a Scandal (film)>
+<Roving Mars>
+<Inquiring Nuns>
+<The Giant Buddhas>
+<Mr. Nice>
+<The Church (film)>
+<The Hours (film)>
+<Anima Mundi (film)>
+<Transcendent Man>
+<La Moustache>
+<A Broken Sole>
+<The Truman Show>
+<The Thin Blue Line (film)>
+<Scarrie! The Musical>
+<Sgt. Pepper's Lonely Hearts Club Band on the Road>
+<The U.S. vs. John Lennon>
+<I Wanna Hold Your Hand (film)>
+<All Together Now (film)>
+<Let It Be (film)>
+<Lennon Naked>
+<Lennon (musical)>
+<Before I Wake (film)>
+<The Revenge of Frankenstein>
+<The Blonde with Bare Breasts>
+<Vincere>
+<Merrily We Roll Along (musical)>
+<The Frogs (musical)>
+<Company (musical)>
+<Assassins (musical)>
+<Side by Side by Sondheim>
+<Evening Primrose (musical)>
+<Saturday Night (musical)>
+<Reds (film)>
+<Putting It Together>
+<Pacific Overtures>
+<A Funny Thing Happened on the Way to the Forum>
+<Sunday in the Park with George>
+<Stavisky>
+<Sondheim on Sondheim>
+<Marry Me A Little (musical)>
+<Into the Woods>
+<Road Show (musical)>
+<A Little Night Music>
+<The Birdcage>
+<Passion (musical)>
+<Hot Spot (musical)>
+<West Side Story (film)>
+<A Little Night Music (film)>
+<Anyone Can Whistle>
+<A Funny Thing Happened on the Way to the Forum (film)>
+<Strip Search (film)>
+<The Promise of Love>
+<Penn & Teller Get Killed>
+<A Bunny's Tale>
+<Forever, Lulu>
+<The Bad News Bears Go to Japan>
+<Miss All-American Beauty>
+<The Killing Time (film)>
+<Crossing Delancey>
+<Allegro (film)>
+<Enemies of Happiness>
+<Slaves of New York>
+<Dance Me Outside>
+<Anne of Green Gables – The Musical>
+<A Boy Named Charlie Brown>
+<Centered in the Universe>
+<The Mini-Munsters>
+<Mondo Hollywood>
+<Skaterdater>
+<The Sidehackers>
+<Devil's Angels>
+<The Born Losers>
+<It's a Bikini World>
+<La Nuit fantastique>
+<Lucrèce Borgia>
+<Retour de manivelle>
+<Fanfan la Tulipe>
+<Children of Paradise>
+<Les Visiteurs du Soir>
+<Air of Paris>
+<La Tour, prends garde !>
+<Une si jolie petite plage>
+<Rudolf (musical)>
+<Never Say Goodbye (musical)>
+<Svengali (musical)>
+<Waiting For The Moon (musical)>
+<The Scarlet Pimpernel (musical)>
+<Camille Claudel (musical)>
+<Victor/Victoria (musical)>
+<Jekyll & Hyde (musical)>
+<The Count of Monte Cristo (musical)>
+<Wonderland (musical)>
+<Dracula, the Musical>
+<The Civil War (musical)>
+<Bonnie & Clyde (musical)>
+<Bol (film)>
+<Pyrates>
+<Crossing the Bridge>
+<A Slipping-Down Life>
+<Angel in My Pocket>
+<The Bridges at Toko-Ri>
+<On the Threshold of Space>
+<D-Day the Sixth of June>
+<Period of Adjustment (film)>
+<Promise Her Anything>
+<The Girls of Pleasure Island>
+<Slaughter Trail>
+<Come Fly with Me (film)>
+<To Catch a Thief>
+<Act of Memory>
+<Drifting Clouds (film)>
+<The Brown Bunny>
+<Elmo Says BOO!>
+<Big Bird in Japan>
+<Dead Men Don't Wear Plaid>
+<Grease (musical)>
+<Death of a Gunfighter>
+<The Alpha Caper>
+<Dreamgirls (film)>
+<The Man Without a Past>
+<Motorpsycho (film)>
+<Ambush at Cimarron Pass>
+<Return of the Fly>
+<Wind Across the Everglades>
+<Curse of the Fly>
+<Voyage to the Bottom of the Sea>
+<Young Guns of Texas>
+<Kronos (film)>
+<Hell Ship Mutiny>
+<The Benny Goodman Story>
+<Arranged (film)>
+<So Proudly We Hail!>
+<Young Toscanini>
+<The Walls of Malapaga>
+<La sfida>
+<Caltiki – The Immortal Monster>
+<Controsesso>
+<The Horrible Dr. Hichcock>
+<Three Steps North>
+<Destinées>
+<The Life of Leonardo da Vinci>
+<Be Kind Rewind>
+<Safety Not Guaranteed>
+<American English>
+<Finnish language>
+<Swedish language>
+<French language>
+<Gujarati language>
+<Tamil language>
+<Badaga language>
+<Italian language>
+<Urdu>
+<Standard Hindi>
+<French language>
+<French language>
+<Portuguese language>
+<Vietnamese language>
+<Arabic language>
+<English language>
+<Dutch language>
+<English language>
+<Standard Hindi>
+<French language>
+<Khmer language>
+<Standard Hindi>
+<English language>
+<Greenlandic language>
+<Malayalam>
+<English language>
+<Telugu language>
+<Marwari language>
+<Standard Hindi>
+<Slovak language>
+<Ukrainian language>
+<Turkmen language>
+<Spanish language>
+<Kannada>
+<Sanskrit>
+<Canadian French>
+<Tamil language>
+<Kannada>
+<Modern Greek>
+<English language>
+<Standard Hindi>
+<English language>
+<Punjabi language>
+<Standard Hindi>
+<Tigrinya language>
+<French language>
+<Arabic language>
+<Tamil language>
+<Marwari language>
+<Standard Hindi>
+<Tajik language>
+<Tulu>
+<Konkani language>
+<Malayalam>
+<Kannada>
+<Standard Hindi>
+<Standard Hindi>
+<French language>
+<English language>
+<English language>
+<Tamil language>
+<Oriya language>
+<Telugu language>
+<Spanish language>
+<Marwari language>
+<Standard Hindi>
+<Marathi language>
+<Marwari language>
+<Standard Hindi>
+<Standard Chinese>
+<Bilingualism in Hong Kong>
+<Cantonese>
+<Arabic language>
+<English language>
+<Nauruan language>
+<Dutch language>
+<French language>
+<German language>
+<Ukrainian language>
+<English language>
+<Arabic language>
+<Tamil language>
+<English language>
+<French language>
+<Standard Hindi>
+<English language>
+<Telugu language>
+<Turkish language>
+<German language>
+<Dutch language>
+<Gronings>
+<West Low German>
+<North Frisian language>
+<West Frisian language>
+<Frisian languages>
+<East Frisian Low Saxon>
+<Danish language>
+<Low German>
+<Saterland Frisian language>
+<Urdu>
+<Standard Hindi>
+<Dogrib language>
+<Slavey language>
+<Gwich’in language>
+<Chipewyan language>
+<Inuktitut>
+<Inuinnaq dialect>
+<Cree language>
+<Inuvialuk language>
+<Bundeli language>
+<Standard Hindi>
+<English language>
+<Standard Hindi>
+<Tulu>
+<Are Bhashe dialect>
+<Havigannada dialect>
+<Serbian language>
+<Portuguese language>
+<Tetum language>
+<Somali language>
+<Arabic language>
+<Arabic language>
+<Kinyarwanda>
+<French language>
+<English language>
+<Kannada>
+<Hungarian language>
+<Croatian language>
+<Official status of Romanian language in Vojvodina>
+<Serbian language>
+<Slovak language>
+<Pannonian Rusyn language>
+<Filipino language>
+<Tagalog language>
+<English language>

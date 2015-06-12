@@ -98,7 +98,7 @@ public class MatchPredicates {
 		startReport();
 //		for (int times = 0; times < 1000; ++times) {
 //			for (String query : content) {
-		String query = " What is the capital of Samoa?";
+		String query = "London is the capital city of which country?";
 		match(query);
 //			}
 //			++times;
@@ -143,8 +143,14 @@ public class MatchPredicates {
 					predicates.putAll(pred_entity);
 					predicates.putAll(pred_other);
 				}
-				if (!ner.equals("O")) {
-					subject += lemma + "_";
+				if (ner.equals("PERSON") || ner.equals("ORGANIZATION") || ner.equals("LOCATION")) {
+					subject += word + "_";
+					continue;
+				}
+				// For all the proper nouns that are not recognised by NER
+				if ((pos.equals("NNP") || pos.equals("NNPS")) && ner.equals("O")) {
+					subject += word + "_";
+					continue;
 				} else if (pos.equals(".") || pos.equals("WP")
 						|| pos.equals("WDT")) { // ignore
 					// "What"
@@ -152,18 +158,15 @@ public class MatchPredicates {
 					// marks
 					continue;
 				} else {
-//					match_pred += lemma + " ";
 					match_pred_words.add(lemma);
 				}
 
 			}
 			// printMap(predicates);
-			// System.out.println("[SUBJECT] " + subject);
-			// System.out.println("PREDICATE TO BE MATCHED: " + match_pred);
 			Collections.sort(match_pred_words);
-			for (int i = 0; i < match_pred_words.size(); ++i) {
+		      for (int i = 0; i < match_pred_words.size(); ++i) {
 				match_pred += match_pred_words.get(i) + " ";
-			}
+		      }
 			List<String> matched_pred = matchPred(match_pred, predicates);
 			// List<String> matched_subjects = matchPred(subject, subjects);
 			long start = System.currentTimeMillis();
@@ -294,8 +297,12 @@ public class MatchPredicates {
 */
 			//String sql = "select distinct object from yagofacts where predicate='" + predicate + "' and subject like '%" + subject + "%';";
 
-			String sql = ("select distinct object from yagofacts where to_tsvector('simple', regexp_replace(subject, E'[^A-Za-z0-9]', ' ', 'g'))"
-					+ " @@ to_tsquery('" + subject + "') and predicate='<" + predicate + ">';");
+	
+			String sql = ("select distinct subject from yagofacts where object='<" + subject + ">' and predicate='<" + predicate + ">';");
+			
+//			String sql = ("select distinct object from yagofacts where to_tsvector('simple', regexp_replace(subject, E'[^A-Za-z0-9]', ' ', 'g'))"
+//					+ " @@ to_tsquery('" + subject + "') and predicate='<" + predicate + ">';");
+			
 			pst = con.prepareStatement(sql);
 			rs = pst.executeQuery();
 

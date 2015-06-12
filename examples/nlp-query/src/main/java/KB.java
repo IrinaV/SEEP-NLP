@@ -59,6 +59,7 @@ public class KB implements SeepTask {
     String pred = sub_pred[1];
 
     try {
+    	long kb_start = System.currentTimeMillis();
         URL url = new URL(hosts.get(index));
         index = (index + 1 == hosts.size() ? 0 : index + 1);
 
@@ -81,7 +82,8 @@ public class KB implements SeepTask {
         JSONArray res = (JSONArray) outObj;
         reader.close();
        
-        long kb_time = 0;
+        long kb_end = System.currentTimeMillis();
+        long kb_time = kb_end - kb_start;
     //    if (res.size() > 0) {
           //System.out.println("[res] " + res.get(0));
           byte[] processedData = OTuple.create(schema, new String[] { "query", "ts", "kb_time" }, new Object[] { "", ts, kb_time});//res.get(0), ts, kb_time } );

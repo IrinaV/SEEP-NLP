@@ -119,7 +119,7 @@ public class ExtractPredicates {
 //				} else {
 					String lemma = token.get(LemmaAnnotation.class);
 					lemmaList.add(lemma);
-					//lemmaString += lemma + " ";
+//					lemmaString += lemma + " ";
 					// lemmas.add(lemma);
 //				}
 			}
